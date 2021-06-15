@@ -1,0 +1,126 @@
+/*******screan saver stylesheet*******/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*********table section**********/
+
+table{
+    border: 1px solid #999;
+    border-collapse: collapse;
+    margin: 0;
+}
+table td{
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+    
+  
+}
+
+table td:hover{
+    background-color:rgb(67, 122, 122);
+    color:#fff;
+    cursor: pointer;
+
+}
+
+    table th{
+      background-color: rgba(0,0,0,0.5);
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+      padding: 10px;
+      border-bottom: 1px solid #666;
+    }
+body{
+    font-family: lato;
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color:#fff   
+}
+
+img{
+    
+}
+
+
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+/***screen body***/
+.screen-body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   height:400px;
+   text-align: center;
+   padding-top: 30px;
+   color:#fff
+
+
+   
+   
+}
+
+#message-note{
+    font-family:;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    top:350px;
+}
+
+#message-date{
+    position: absolute;
+    top:180px;
+    bottom: 0;
+    font-size:150px;
+  
+    text-shadow:3px 3px 3px 3px #fff;
+}
+
+/*****screen footer*****/
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:flex-end;
+    height: 100px;
+    margin: 35px 20px 20px 20px;
+
+   
+    }
+   
+
+button{
+    padding:17px 25px;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: ease 0.5s;
+}
+
+button:hover{
+     transform: scale(0.98);
+}
+
+button:focus{
+    outline: none;
+}
+
+.footer-brand{
+    text-transform: capitalize;
+}
+
+
